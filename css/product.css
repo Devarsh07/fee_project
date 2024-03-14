@@ -1,0 +1,347 @@
+.product-details{
+    width:100%;
+    padding: 60px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.image-slider{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F3b%2Fd5%2F3bd558fde66732a5ceca92757f6543cc5aacf187.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
+.image-slider2{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/626011/01/mod01/fnd/IND/fmt/png/PUMA-x-HARRDY-SANDHU-Mens-Relaxed-Fit-Tank');
+    background-size: cover;
+}
+.image-slider3{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/673108/66/mod03/fnd/IND/fmt/png/HER-Womens-Relaxed-Fit-Polo-T-shirt');
+    background-size: cover;
+}
+.image-slider4{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/680653/01/mod01/fnd/IND/fmt/png/PackLITE-Mens-Hooded-Down-Jacket');
+    background-size: cover;
+}
+.image-slider5{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/524974/01/mod01/fnd/IND/fmt/png/RUN-EVOLVE-Womens-Woven-Running-Jacket');
+    background-size: cover;
+}
+.image-slider6{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7a%2F3a%2F7a3a608504719776e55f5cf1be9eefc6c715f50e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
+.image-slider7{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fbf%2F0a%2Fbf0aa2001264cf7b3f5e645bc054d41fb9bf093b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
+.image-slider8{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7b%2F81%2F7b8137a3c590ee1660f3e3180ecb432e307cc203.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
+.image-slider9{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa1%2F9b%2Fa19ba5d19a3b82fa79c13893bcc5927ecfcdfe94.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
+.image-slider10{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F14%2Fe0%2F14e0d5383789b2bd70da3c8e38867720c6e8b0f1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
+.image-slider11{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe5%2Ff1%2Fe5f1995a28fb59365d587b3fed8ac9c816fc05b5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
+.image-slider12{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F55%2F34%2F5534790797b2e7d812bb836bc60f3c5264fdea81.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
+.image-slider13{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdc%2Ffa%2Fdcfaa5a277d120f83e18e6a92fc2cd6f8ad9da68.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D');
+    background-size: cover;
+}
+.image-slider14{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F36%2Fc2%2F36c2ee1c5dfb63c7563fe288dfea9f33a19d43a2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D');
+    background-size: cover;
+}
+.image-slider15{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F5d%2Fbf%2F5dbf08f521b8cdbdad7595ba1cf3a7af8e9a12a1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
+.image-slider16{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F29%2Fbb%2F29bb1e3184cfc070ff72150bb1db6031c72bbabf.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D');
+    background-size: cover;
+}
+.image-slider17{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/195175/02/sv01/fnd/IND/fmt/png/Aviator-Unisex-Running-Shoes');
+    background-size: cover;
+}
+.image-slider18{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/397167/01/sv01/fnd/IND/fmt/png/RBD-Game-Low-x-HARRDY-SANDHU-Mens-Sneakers');
+    background-size: cover;
+}
+.image-slider19{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/377048/08/sv01/fnd/IND/fmt/png/SOFTRIDE-Enzo-Evo-Unisex-Running-Shoes');
+    background-size: cover;
+}
+.image-slider20{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/377048/02/sv01/fnd/IND/fmt/png/SOFTRIDE-Enzo-Evo-Unisex-Running-Shoes');
+    background-size: cover;
+}
+.image-slider21{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/377855/08/sv01/fnd/IND/fmt/png/Explore-NITRO%E2%84%A2-Womens-Hiking-Shoes');
+    background-size: cover;
+}
+.image-slider22{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/107766/01/sv01/fnd/IND/fmt/png/ULTRA-PLAY-Unisex-Indoor-Court-Shoes');
+    background-size: cover;
+}
+.image-slider23{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/107807/02/sv01/fnd/IND/fmt/png/Cricket-Classic-Cat-Mens-Shoes');
+    background-size: cover;
+}
+.image-slider24{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/397166/02/sv01/fnd/IND/fmt/png/RBD-Game-x-HARRDY-SANDHU-Mens-Sneakers');
+    background-size: cover;
+}
+.product-images{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background:#696868;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 100px;
+    grid-gap:30px;
+    padding: 10px;
+}
+.product-images img{
+    width:100%;
+    object-fit:fill;
+    height: 80px;
+}
+.product-images img.active{
+    opacity: 0.4;
+}
+.details{
+    width: 50%;
+}
+@media(max-width:1300px)
+{
+    .details{
+        width:50%;
+    }
+    .product-details{
+        display: block;
+    }
+    .image-slider ,.image-slider2 ,.image-slider3, .image-slider4 ,.image-slider5, .image-slider6, .image-slider7 ,.image-slider8, .image-slider9, .image-slider10, .image-slider11, .image-slider12, .image-slider13, .image-slider14, .image-slider15, .image-slider16 ,.image-slider17,.image-slider18,.image-slider19,.image-slider20,.image-slider21,.image-slider22,.image-slider23,.image-slider24{ 
+        width: 970px;
+        height: 970px;
+    }
+}
+@media(max-width:1195px)
+{
+    .image-slider ,.image-slider2 ,.image-slider3, .image-slider4 ,.image-slider5, .image-slider6, .image-slider7 ,.image-slider8, .image-slider9, .image-slider10, .image-slider11, .image-slider12, .image-slider13, .image-slider14, .image-slider15, .image-slider16 ,.image-slider17,.image-slider18,.image-slider19,.image-slider20,.image-slider21,.image-slider22,.image-slider23,.image-slider24{ 
+        width: 79vw;
+        height: 86vw;
+    }
+    .details{
+        width: 100%;
+    }
+    .product-images{
+        height:18vw;
+    }
+    .product-images img{
+        height: 16vw;
+    }
+
+}
+@media((min-width: 1196px) and (max-width: 1300px))
+{
+    .product-images img{
+        height: 16vw;
+    }
+    .product-images{
+        height:18vw;
+    }
+}
+@media(max-width:995px)
+{
+    .product-images{
+        height:18vw;
+    }
+}
+.details .product-brand{
+    text-transform: capitalize;
+    font-size:2em;
+}
+.details .product-short-desc{
+    font-size: 25px;
+    line-height: 30px;
+    height: auto;
+    margin: 15px 0 30px;
+}
+.product-price{
+    font-weight: 700;
+    font-size: 30px;
+}
+.product-actual-price{
+    font-size: 30px;
+    opacity: 0.5;
+    text-decoration: line-through;
+    margin:0 20px;
+    font-weight: 300;
+}
+.product-discount{
+    color: #ff7d7d;
+    font-size: 20px;
+}
+.product-sub-heading{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 60px 0px 10px;
+    font-weight:300;
+
+}
+.size-radio-btn{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 0;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #383838;
+    cursor: pointer;
+}
+.size-radio-btn.check{
+    background: #383838;
+    color: #fff;
+}
+.btn{
+    width: 48%;
+    padding: 20px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #383838;
+    color: #383838;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 0;
+    text-transform: capitalize;
+    height: 100px;
+}
+
+.cart-btn{
+    width: 48%;
+    margin-right: 3%;
+    background: #383838;
+    color: #fff;
+    height: 100px;
+}
+@media(max-width:585px)
+{
+    .btn,.cart-btn{
+        /* width: auto; */
+        width: 100%;
+    }
+}
+ /* @media(max-width:547px)
+{
+    .both{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-btn{
+        margin-right: 0px;
+    } 
+}
+ @media(max-width:1195px)
+{
+    .card-btn{
+
+        margin-right: 50%;
+    }
+} */
+ @media(max-width:470px)
+{
+    .btn,.cart-btn{
+        width: 100%;
+    }
+} 

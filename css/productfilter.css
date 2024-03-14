@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(240, 239, 243);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 49vw;
+    height: 90%;
+    background-color: #ffff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container form{
+    width: 100%;
+    border: 3px solid rgb(71, 69, 69);
+    border-radius: 4px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+.container form i{
+    padding-left: 10px;
+}
+.product-list{
+    padding:20px 0px ;
+
+}
+.product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.product img{
+    width: 16vw;
+    height: 16vw;
+    object-fit: fill;
+    border-radius: 5px;
+}
+.product .p-details{
+    padding-left: 15px;
+}
+.product .p-details h2{
+    font-size: 20px;
+    color: #1d1d1d;
+}
+.product .p-details h3{
+    font-size: 25px;
+}
+@media(max-width:690px)
+{
+    .product .p-details h2{
+        font-size: 20px;
+        color: #1d1d1d;
+    }
+}
+@media(max-width:500px)
+{
+    .product .p-details h2{
+        font-size: 17px;
+        color: #1d1d1d;
+    }
+    .product .p-details h3{
+        font-size: 20px;
+        color: #1d1d1d;
+    }
+}
+/* @media(max-width:445px)
+{
+    .serach-item {
+        placeholder: "search";
+    }
+} */
+@media((min-width:200px) and (max-width:400px))
+{
+    .container{
+        width: 89vw;
+        font-size: 18px;
+    }
+}
+@media((min-width:400px) and (max-width:520px))
+{
+    .container{
+        width: 85vw;
+    }
+}
+@media((min-width:520px) and (max-width:650px))
+{
+    .container{
+        width: 80vw;
+    }
+}
+

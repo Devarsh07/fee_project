@@ -1,0 +1,161 @@
+footer{
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #383838;
+}
+
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content .flogo{
+    font-size: 45px;
+    color: #fff;
+    
+}
+h3{
+    font-family: 'Berlin Sans FB';
+    position: relative;
+    top: 20%;
+    font-weight: 100;
+}
+/* h3:before{
+    content: "clothodile";
+    position:absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 0.865em;
+} */
+/* span{
+    top: 50%;
+} */
+
+.footer-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    list-style: none;
+}
+
+.category-title{
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.category .footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-link:hover{
+    color: #fff;
+}
+
+
+
+.footer-title, .info{
+    color: rgba(255, 255, 255, 0.75);
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.footer-title{
+    margin-top: 80px;
+    color: #fff;
+}
+
+.footer-social-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.social-link:nth-child(1){
+    margin-left: 0;
+}
+
+.footer-credit{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+}
+@media(max-width:680px)
+{
+    .footer-ul-container{
+        /* display: block; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-content: space-between;
+    }
+
+}
+@media(max-width:520px)
+{
+    h3{
+        font-size: 30px;
+    }
+    /* .social-link:nth-child(3){
+        margin-left: 5vw;
+    } */
+    .policy{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .policy>.social-link:nth-child(2){
+        margin-top: 15px;
+        margin-left: 0px;
+        
+    }
+}
+@media(max-width:437px)
+{
+    .category{
+        width: 156px;
+    }
+}
+@media(max-width:378px)
+{
+    .social-icon{
+        display:flex;
+        justify-content: space-between;
+    }
+    .footer-content{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .category-title{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter Page</title>
+    <link rel="stylesheet" href="./css/productfilter.css">
+    <script
+      src="https://kit.fontawesome.com/0cf421f94b.js"></script>
+</head>
+<body>
+        <section class="container">
+            <form>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search-item" placeholder="Search products" onkeyup="search()">
+            </form>
+
+            <div class="product-list" id="product-list">
+                <div class="product">
+                    <a href="./product.html"><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F3b%2Fd5%2F3bd558fde66732a5ceca92757f6543cc5aacf187.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt=""></a>
+                    <div class="p-details">
+                        <h2>H&M Mens Shirt</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product3.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/673108/66/mod01/fnd/IND/fmt/png/HER-Women's-Relaxed-Fit-Polo-T-shirt" alt=""></a>
+                    <div class="p-details">
+                        <h2>Women half sleeve shirts</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product2.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/626011/01/mod01/fnd/IND/fmt/png/PUMA-x-HARRDY-SANDHU-Men's-Relaxed-Fit-Tank" alt=""></a>
+                    <div class="p-details">
+                        <h2>Mens Relaxed Fit Tank</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product4.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/680653/01/mod01/fnd/IND/fmt/png/PackLITE-Men's-Hooded-Down-Jacket" alt=""></a>
+                    <div class="p-details">
+                        <h2>Mens Hoodie Down Jacket</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product5.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/524974/01/fnd/IND/fmt/png/RUN-EVOLVE-Women's-Woven-Running-Jacket" alt=""></a>
+                    <div class="p-details">
+                        <h2>Puma Black Unisex Track Suit </h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product6.html"><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7a%2F3a%2F7a3a608504719776e55f5cf1be9eefc6c715f50e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt=""></a>
+                    <div class="p-details">
+                        <h2>H&M Printed Green Shirts </h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product7.html"><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fbf%2F0a%2Fbf0aa2001264cf7b3f5e645bc054d41fb9bf093b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt=""></a>
+                    <div class="p-details">
+                        <h2>H&M white colored full sleeve shirt</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product8.html"><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7b%2F81%2F7b8137a3c590ee1660f3e3180ecb432e307cc203.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt=""></a>
+                    <div class="p-details">
+                        <h2>Black outline printed girls top</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product9.html"><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe0%2F74%2Fe07401e5f1c89195c511f2cd5ea87bb9c461a076.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt=""></a>
+                    <div class="p-details">
+                        <h2>H&M black mens jacket</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product10.html"><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F14%2Fe0%2F14e0d5383789b2bd70da3c8e38867720c6e8b0f1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt=""></a>
+                    <div class="p-details">
+                        <h2>multicolored printed half sleeve shirt</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product11.html"><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe5%2Ff1%2Fe5f1995a28fb59365d587b3fed8ac9c816fc05b5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt=""></a>
+                    <div class="p-details">
+                        <h2>Linen-blend flared-skirt dress</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product12.html"><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F55%2F34%2F5534790797b2e7d812bb836bc60f3c5264fdea81.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt=""></a>
+                    <div class="p-details">
+                        <h2>Plain blue color half sleeve shirts</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product13.html"><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdc%2Ffa%2Fdcfaa5a277d120f83e18e6a92fc2cd6f8ad9da68.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D" alt=""></a>
+                    <div class="p-details">
+                        <h2>Blue colored flower printed top  </h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product14.html"><img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fce%2Fee%2Fceee98eda74d53e8229eadaeaf202b6302a5f71e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt=""></a>
+                    <div class="p-details">
+                        <h2>brown colored bird printing half sleeve shirt</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product15.html"><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc2%2F43%2Fc2432a5fcf888c0f3ab098928c22ed4efafb6290.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D" alt=""></a>
+                    <div class="p-details">
+                        <h2>H&M Red check box printed half sleeve shirt</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product16.html"><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F29%2Fbb%2F29bb1e3184cfc070ff72150bb1db6031c72bbabf.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D" alt=""></a>
+                    <div class="p-details">
+                        <h2>Levis plain brown printed full sleeve shirt</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product17.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/195175/02/sv01/fnd/IND/fmt/png/Aviator-Unisex-Running-Shoes" alt=""></a>
+                    <div class="p-details">
+                        <h2>Aviator Unisex Running Shoes</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product18.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/397167/01/sv01/fnd/IND/fmt/png/RBD-Game-Low-x-HARRDY-SANDHU-Men's-Sneakers" alt=""></a>
+                    <div class="p-details">
+                        <h2>Men's Sneakers</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product19.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_900,h_900/global/377048/08/sv01/fnd/IND/fmt/png/SOFTRIDE-Enzo-Evo-Unisex-Running-Shoes" alt=""></a>
+                    <div class="p-details">
+                        <h2>Cruise Rider Silk Road Women's Sneakers</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product20.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/377048/02/sv01/fnd/IND/fmt/png/SOFTRIDE-Enzo-Evo-Unisex-Running-Shoes" alt=""></a>
+                    <div class="p-details">
+                        <h2>SOFTRIDE Enzo Evo Unisex Running Shoes</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product21.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/377855/08/sv01/fnd/IND/fmt/png/Explore-NITRO%E2%84%A2-Women's-Hiking-Shoes" alt=""></a>
+                    <div class="p-details">
+                        <h2>Women's Hiking Shoes</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product22.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/107766/01/sv01/fnd/IND/fmt/png/ULTRA-PLAY-Unisex-Indoor-Court-Shoes" alt=""></a>
+                    <div class="p-details">
+                        <h2>ULTRA PLAY Unisex Indoor Court Shoes</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product23.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/107807/02/sv01/fnd/IND/fmt/png/Cricket-Classic-Cat-Men's-Shoes" alt=""></a>
+                    <div class="p-details">
+                        <h2>Cricket Classic Cat Men's Shoes</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product24.html"><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/397166/02/sv01/fnd/IND/fmt/png/RBD-Game-x-HARRDY-SANDHU-Men's-Sneakers" alt=""></a>
+                    <div class="p-details">
+                        <h2>RBD Game x HARRDY SANDHU Men's Sneakers</h2>
+                        <h3>$25</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <script src="js/productfilter.js"></script>
+</body>
+</html>

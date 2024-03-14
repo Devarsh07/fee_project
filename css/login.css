@@ -1,0 +1,104 @@
+*{
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-family: myfont;
+    background-color: #F2F2F2 ;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Din-Pro-Font/DIN\ Pro\ 400.otf);
+}
+.a1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 70%;
+    padding: 20px;
+    color: white;
+    border: 2px solid black;
+    /* width: fit-content; */
+    background-color: #121212;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    box-shadow: 5px;
+}
+.a1{
+    /* display: flex; */
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.avatar{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.avatar img{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 500;
+}
+button {
+    width: 145px;
+    height: 48px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+input{
+    width: 39%;
+    height: 44px;
+    border-radius: 40px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+#result {
+    margin-top: 96px;
+    position: relative;
+    /* left: 40%; */
+
+}
+Button::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    z-index:-1;
+    transition: 0.5s;
+}
+Button:hover::after{
+    width: 100%;
+}
+Button:hover{
+    background-color: #a1a1a1;
+}
+@media(max-width:1144px)
+{
+    input{
+        width: 198px;
+    }
+}
+@media(max-width:860px)
+{
+    .a1{
+        width: 430px;
+    }
+}
+@media(max-width:480px)
+{
+    .a1{
+        width: 310px;
+    }
+}
